@@ -7,6 +7,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
+
+		<javafx.version>16</javafx.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
@@ -49,12 +51,13 @@
 			<artifactId>cluecumber-core</artifactId>
 			<version>3.5.1</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.monte/screen-recorder -->
 		<dependency>
-			<groupId>org.jetbrains</groupId>
-			<artifactId>annotations-java5</artifactId>
-			<version>RELEASE</version>
-			<scope>compile</scope>
+			<groupId>com.github.stephenc.monte</groupId>
+			<artifactId>monte-screen-recorder</artifactId>
+			<version>0.7.7.0</version>
 		</dependency>
+
 	</dependencies>
 
 </project>

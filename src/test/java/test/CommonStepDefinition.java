@@ -1,6 +1,5 @@
 package test;
 
-import org.sikuli.basics.Settings;
 import org.sikuli.script.Screen;
 
 public class CommonStepDefinition {
@@ -10,9 +9,6 @@ public class CommonStepDefinition {
     private final String workingDirectory = System.getProperty("user.dir");
 
     private CommonStepDefinition() {
-        Settings.MoveMouseDelay = 0f;
-        Settings.ObserveScanRate = 100f;
-        Settings.ObserveMinChangedPixels = 0;
         this.screen = new Screen();
     }
 
